@@ -5,11 +5,9 @@ This repo shows some work I did in R during my phd. See the abstract and link to
 The following scripts are included:
 
 *GutBrain_Analysis.R*
-
 Here I performed different statistical analyses, including mixed effects models, multiple mediation, correlation with correction for multiple testing, multiple regression, etc. The original data is included (allData[...].csv) in the repo, so the tests and graphics are reproducable. You can also find some graphics within the original publication (link below). *Funktionen1.R and config.R* are outsourced dependencies that work on other scripts as well.
 
 *Ospan_ext.R*
-
 This script extracts, computes and analyses data from external experiment protocols. The Operation Span Task (Ospan) is a neurocognitive experiment used to quantify working memory capacity (WMC) by testing which letters of a letter sequence can be remembered while solving simple math problems at the same time. We proposed a new WMC scoring method, which needed to be validated by comparing it to a number of datasets that was given to us by other institutes (see https://doi.org/10.31234/osf.io/ue3j8 for more info an acknowledgements). This script first mines certain data points, then calculates different scoring methods and finally correlates those methods. Due to data privacy commitment the original data is not included. 
 
 
